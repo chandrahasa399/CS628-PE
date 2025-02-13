@@ -1,0 +1,83 @@
+body,
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; 
+}
+
+header {
+  background-color: black; 
+  color: white;
+  padding: 20px 0; 
+  text-align: center;
+  font-size: 24px; 
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px; 
+}
+
+nav {
+  text-align: center;
+  margin: 20px 0; 
+}
+
+nav a {
+  text-decoration: none;
+  color: black; 
+  font-weight: bold;
+  margin: 0 12px; 
+  font-size: 18px;
+}
+
+nav a.active {
+  border-bottom: 2px solid #4CAF50; /* Dark green */
+}
+
+.container {
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #F0F3F6; 
+  border: 1px solid #D1D8E0; 
+}
+
+.left-content {
+  text-align: left;
+}
+
+ul li {
+  margin-bottom: 12px; 
+  list-style-type: none;
+  font-size: 16px; 
+}
+
+.city-details {
+  background-color: #F0F3F6; 
+  padding: 16px; 
+  border: 1px solid #D1D8E0; 
+}
+
+label {
+  display: inline-block;
+  width: 140px; 
+  margin-right: 12px; 
+  text-align: left;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px; 
+  margin-bottom: 12px; 
+  border: 1px solid #B0BEC5; 
+  border-radius: 4px; 
+  font-size: 16px; 
+}
